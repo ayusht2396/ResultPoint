@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Hevletica;
+}
+header img
+{
+    float:left;
+    padding:6px 6px; 
+}
+header h1
+{
+    float: right;
+    font-size: 50px;
+    padding:0 auto;
+    font-family: Helvetica;
+    color: yellow;
+    text-shadow: 2px 2px grey;
+}
+header h1:hover{
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+}
+header
+{
+    height: 110px;
+    background: green;
+    border-bottom-left-radius :10px;
+    border-bottom-right-radius :10px;
+    box-shadow: 2px 2px yellow;
+}
+form
+{
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    border: solid 1px grey;
+    border-radius: 20px;
+    border-color: chartreuse;
+}
+form:hover
+{
+    border-color: dodgerblue;
+}
+form:active
+{
+    border-color: black;
+}
+form img
+{
+    margin: 20px auto;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+form img:hover
+{
+    cursor:pointer;
+}
+.schl
+{
+    margin: 0 auto;
+    display: block;
+    width: 260px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 4px;
+    height: 30px;
+    
+}
+.schl:hover
+{
+    border-color: dodgerblue;
+}
+.bttn
+{
+    margin: 6px auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+.bttn:hover
+{
+    cursor: pointer;
+}
+.rmiddle p
+{
+    font-size:24px;
+    color: green;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 200px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: darkgrey;
+    text-align: center;
+}
+footer p
+{
+    padding-top: 10px;
+}
